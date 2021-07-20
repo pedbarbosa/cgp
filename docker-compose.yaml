@@ -1,0 +1,14 @@
+version: "3"
+services:
+  cgp:
+    image: pedbarbosa/cgp
+    container_name: cgp
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /var/lib/collectd/rrd:/var/lib/collectd/rrd:ro
+    ports:
+      - 8085:80
+    healthcheck:
+      test: "wget http://localhost:80 --spider -q"
+    restart: unless-stopped
+
