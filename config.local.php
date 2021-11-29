@@ -8,4 +8,10 @@ foreach ($_ENV as $key=>$val )
   }
 }
 
+# Override configuration settings
+$CONFIG['width'] = 500;
+$CONFIG['height'] = 200;
+$CONFIG['detail-width'] = 1000;
+$CONFIG['detail-height'] = 600;
+
 ?>

@@ -9,6 +9,6 @@ services:
     ports:
       - 8085:80
     healthcheck:
-      test: "wget http://localhost:80 --spider -q"
+      test: "curl -ILXGET http://localhost"
     restart: unless-stopped
 
