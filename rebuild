@@ -10,7 +10,7 @@ push_image() {
   fi
 }
 
-IMAGE="pedbarbosa/cgp"
+IMAGE="pedbarbosa/docker-cgp"
 VERSION=$(date +"%Y%m%d-%H%M%S")
 
 if docker build --compress --no-cache --tag "$IMAGE:$VERSION" .; then

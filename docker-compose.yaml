@@ -1,7 +1,7 @@
 version: "3"
 services:
   cgp:
-    image: pedbarbosa/cgp
+    image: pedbarbosa/docker-cgp
     container_name: cgp
     volumes:
       - /etc/localtime:/etc/localtime:ro
