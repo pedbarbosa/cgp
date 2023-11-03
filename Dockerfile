@@ -1,5 +1,5 @@
 FROM php:7-apache
-MAINTAINER Pedro Barbosa, https://github.com/pedbarbosa
+LABEL org.opencontainers.image.authors="Pedro Barbosa, https://github.com/pedbarbosa"
 
 RUN \
     echo "**** update and upgrade packages ****" && \
