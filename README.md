@@ -1,7 +1,6 @@
 # cgp
-Docker container for CGP (CollectD Graph Panel)
 
-## CollectD Graph Panel on a Docker container
+## CollectD Graph Panel (CGP) on a Docker container
 
 This repository contains a Dockerfile to build a Docker image with CollectD Graph Panel running on Apache and PHP.
 
